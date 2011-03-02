@@ -5,6 +5,21 @@ pyFreeSMS v1.0.0
 This is a Python API to send free messages
 using any of the online free SMS providers.
 
+--------------
+	USAGE
+--------------
+
+1. Copy the "pyFreeSMS" folder to the directory
+containing your code.
+
+2. Use the following code to send free messages*:
+
+from pyFreeSMS import py160by2
+py160by2.sendMessage('username','password','1234567890','message')
+
+* Replace the necessary information for your 160by2 account
+* Currently works only with 160by2
+
 ----------------
 	CHANGES
 ----------------
