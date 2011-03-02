@@ -1,0 +1,13 @@
+-----------------
+pyFreeSMS v1.0.0
+-----------------
+
+This is a Python API to send free messages
+using any of the online free SMS providers.
+
+----------------
+	CHANGES
+----------------
+
+v1.0.0: Mar 3, 2011
+	- Added support for 160by2
