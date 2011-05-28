@@ -75,7 +75,7 @@ def sendMessage(username, password, phonenumber, message):
 		print "Login failed. HTTP Error: " + str(e.code)
 		return
 	except urllib2.URLError, e:
-		print "Login failed. URL Error: " + e.reason
+		print "Login failed. URL Error: " + str(e.reason)
 		return
 	
 	''' Get the message ID '''
@@ -113,7 +113,7 @@ def sendMessage(username, password, phonenumber, message):
 		print "Login failed. HTTP Error: " + str(e.code)
 		return
 	except urllib2.URLError, e:
-		print "Login failed. URL Error: " + e.reason
+		print "Login failed. URL Error: " + str(e.reason)
 		return
 
 	success = re.search("Successfully", data)
